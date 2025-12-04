@@ -1,0 +1,18 @@
+function first(a,b){  // normal function
+   c=a+b;
+
+   return c;
+}
+var a ,b;
+console.log(first(4,5));
+
+
+var add =function(a,b){ // anonym
+   return a+b;
+}
+
+console.log(add(10,20)); 
+
+var add1 =(a,b) => a+b; // arrow functions 
+
+console.log(add1(100,200));
